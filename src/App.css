@@ -1,0 +1,15 @@
+body
+{
+  background-image: url('../src/res/celebration-gif-4.gif');
+  background-repeat: no-repeat;
+  background-size:100vw 100vh;
+  background-attachment: fixed;
+}
+.login_button
+{
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  height: 15vh;
+  width: 100vw;
+}

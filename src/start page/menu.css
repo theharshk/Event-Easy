@@ -1,0 +1,58 @@
+.menu
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    width:100vw;
+    height:10vh;
+    background-color:#2FA4FF;
+}
+.link_container
+{
+    width:90vw;
+    height:10vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.useless
+{
+    width:5vw;
+    height:10vh;
+}
+.inner
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    width:40vw;
+    height:10vh;
+}
+.links
+{
+    text-decoration: none;
+    color:white;
+    font-size: 3vh;
+}
+.logout_outer
+{
+    width:10vw;
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn
+{
+    border-radius: 10px;
+    background-color: #FF1818;
+    color: white;
+    font-size:3vh;
+    border: 2px solid white;
+    padding: 1vh;
+    width:fit-content;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.oouters
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    width:fit-content;
+    height:fit-content;
+    min-width: 50vw;
+    min-height: 75vh;
+    flex-direction: row;
+    background-image: url('../res/c8d02843150633645e3bec967a44766c\(1\).png');
+    background-repeat: no-repeat;
+    background-size: 50vw 75vh;
+    margin:20px;
+}
+.extra
+{
+    width:23vw;
+    height:75vh;
+}
+.list_outer
+{
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-width:25vw;
+    width: fit-content;
+    height: 72vh;
+    padding: 10px;
+    overflow-y:auto;
+    overflow-x: auto;
+    background-color: yellow;
+}
+.item_header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+.dual
+{
+    width:15vw;
+    height:5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items_con
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 1vh;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+.subject
+{
+    margin:4px;
+    width:fit-content;
+    height:fit-content;
+    min-width:11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.btn_containss
+{
+    width:inherit;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in
+{
+    display:flex;
+    flex-direction: row;
+    width:fit-content;
+    height: fit-content;
+}
+.list_outers
+{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    min-width:25vw;
+    width: fit-content;
+    height: 72vh;
+    padding: 10px;
+    background-color: yellow;
+}

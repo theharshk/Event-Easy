@@ -1,0 +1,53 @@
+.Ccontainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    border-radius: 15px;
+    width: 40vw;
+    height:40vh;
+    background-color: rgba(0,0,0,0.4);
+}
+.mess
+{
+    font-size:4vh;
+    color: red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Cmessage
+{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    width:fit-content;
+    height: fit-content;
+}
+.Cbutton
+{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    width:fit-content;
+    height: fit-content;
+}
+.btn_commit
+{
+    padding:10px;
+    width:fit-content;
+    min-width: 10vw;
+    background-color:#4E944F;
+    border-radius: 10px;
+    font-size: 3vh;
+    color: white;
+    transition: 0.2s;
+    border-color: white;
+}
+.btn_commit:hover
+{
+    background-color: #446A46;
+}

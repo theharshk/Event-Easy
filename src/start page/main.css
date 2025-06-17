@@ -1,0 +1,19 @@
+.nav
+{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    width:fit-content;
+    height:fit-content;
+}
+.main
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:fit-content;
+    width:fit-content;
+    min-height: 75vh;
+    min-width: 100vw;
+}

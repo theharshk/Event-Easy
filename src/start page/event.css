@@ -1,0 +1,53 @@
+.event_container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width:fit-content;
+    height: fit-content;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.event_button{
+    width:fit-content;
+    height:fit-content;
+    margin:1vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 2%;
+}
+.inner_event_container
+{
+    width:60vw;
+    height:20vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #D6E5FA;
+    transition: 0.5s;
+    border-radius: 2%;
+}
+.inner_event_container:hover{
+    background-color: #A3A7E4;
+
+}
+.event_icon{
+    background-image: url('../res/event.png');
+    width:18vh;
+    height:18vh;
+    background-size: 18vh 18vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.event_name
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 4vh;
+    height:20vh;
+    width:20vw;
+    color: red;
+}
